@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Latihan Minggu 1</title>
+</head>
+<style>
+    table {
+      border-collapse: collapse;
+      border: 1px solid black;
+    } 
+    
+    th {
+      border: 1px solid black;
+      text-align: center;
+      background-color:rgb(211, 211, 0);
+    }
+
+    td {
+      border: 1px solid black;
+      text-align: center;
+      background-color:rgb(245, 222, 222);
+    }
+
+    table.a {
+      table-layout: auto;
+      width: 100%;  
+      
+    }
+    caption {
+        text-align:center;
+    }
+
+    p {
+        text-align:justify;
+    }
+</style>
+
+<body>
+
+<h1>Praktek SIGWEB Minggu-1</h1>
+<p>Praktek SIGWEB minggu ini adalah membuat sebuah halaman HTML sederhana.</p>
+
+<h2>Latihan 1</h2>
+<p>Latihan 1 berisikan percobaan membuat kalimat dengan pengaturan yang berbeda-beda.</p>
+
+<ul>Sebagai berikut:
+<li><b>Ini adalah tulisan tebal.</b></li>
+<li><em>Ini adalah tulisan miring.</em></li>
+</ul>
+
+<h2>Latihan 2</h2>
+<p>Menampilkan gambar</p>
+<img src="Dokumentasi Program Kerja.png" alt="Program Kerja Edukasi Pemilahan Sampah kepada Anak SD"
+style="width:600px;height:400px;">
+<p>Ini adalah gambar.</p>
+
+<h2>Latihan 3</h2>
+<p>Menampilkan tabel.</p>
+
+<caption><b>Tabel 1 Daftar usia mahasiswa</b></caption>
+
+<table class="a">
+<tr>
+    <th>Nama Depan</th>
+    <th>Usia</th>
+    <th>Tempat Tinggal Asal</th>
+</tr>
+<tr>
+    <td>Rizky</td>
+    <td>20 tahun</td>
+    <td>Kediri</td>
+</tr>
+<tr>
+    <td>Faradilla</td>
+    <td>20 tahun</td>
+    <td>Batam</td>
+</tr>
+<tr>
+    <td>Arvian</td>
+    <td>20 tahun</td>
+    <td>Klaten</td>
+</tr>
+<tr>
+    <td>Rifki</td>
+    <td>20 tahun</td>
+    <td>Padang</td>
+</tr>
+<tr>
+  <td>Reza</td>
+  <td>20 tahun</td>
+  <td>Kulon Progo</td>
+</tr>
+</table>
+
+<h2>Latihan 4</h2>
+<p>Menampilkan form.</p>
+
+<form>
+  <fieldset>
+      <legend>Data Diri Anggota</legend>
+
+      <p>
+          <label>
+              Jabatan
+              <br />
+              <select name="jabatan">
+                  <option>--Pilih salah satu--</option>
+                  <option>Ketua</option>
+                  <option>Sekretaris</option>
+                  <option>Bendahara</option>
+                  <option>Koordinator</option>
+                  <option>Anggota</option>
+              </select>
+          </label>
+      </p>
+
+      <p>
+          <label>Nama Lengkap: <input name="fullName" /></label>
+      </p>
+
+      <p>
+          <label>Nama Panggilan: <input name="nickName" /></label>
+      </p>
+
+      <p>
+          Jenis Kelamin :
+          <label><input type="radio" name="jeniskelamin"
+                        value="Laki-laki" />
+                Laki-Laki   
+            </label>
+          <label><input type="radio" name="jeniskelamin"
+                        value="Perempuan" />
+                Perempuan   
+            </label>
+      </p>
+
+      <p>
+          <label>Email:<input type="email"
+                              name="email" />
+            </label>
+      </p>
+
+      <p>
+          <label>Tanggal Lahir:<input type="date"
+                                      name="birthDate">
+            </label>
+      </p>
+
+      <p>
+          <label>
+              Alamat Lengkap :
+              <br />
+              <textarea name="address" cols="50"
+                        rows="5">
+                </textarea>
+          </label>
+      </p>
+
+      <p>
+          <button type="submit">Submit</button>
+      </p>
+    </fieldset>
+  </form>
+</body>
+</html>
+
+

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  font-size: 16px;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.column.side {
+  width: 25%;
+}
+
+.column.middle {
+  width: 65%;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column.side, .column.middle {
+    width: 100%;
+  }
+}
+
+.footer {
+  background-color: rgba(39, 136, 136, 0.292);
+  margin: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+h2 {
+    background-color: rgba(39, 136, 136, 0.292);
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    background-color: rgba(39, 136, 136, 0.237);
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4caf81;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h2>Laman Sistem Informasi Desa Singonegaran</h2>
+  <h4>Desa Singonegaran . Kecamatan Pesantren . Kota Kediri . Jawa Timur</h4>
+</div>
+
+<ul>
+  <li><a class="active" href="#beranda">Beranda</a></li>
+  <li><a href="#profil">Profil</a></li>
+  <li><a href="#berita">Berita</a></li>
+  <li><a href="#struktur">Struktur</a></li>
+  <li><a href="#program">Program</a></li>
+  <li><a href="#capaian">Capaian</a></li>
+  <li><a href="#kontak">Kontak</a></li>
+</ul>
+
+<h3>Profil Desa Singonegaran</h3>
+
+<img src="AREA_SINGONEGARAN.jpg" alt="Wilayah Desa Singonegaran"
+style="width:500px;height:260px;">
+
+<div class="row">
+    <div class="column side">
+    <h3>Profil Desa</h3>
+    <p>Desa Singonegaran merupakan salah satu desa yang terletak di Kelurahan Singonegaran, Kecamatan Pesantren, Kota Kediri, Jawa Timur. Desa Singonegaran memiliki kode wilayah 35.71.03.1005.</p>
+</div>
+
+  <div class="column middle">
+    <h3>Kode Wilayah</h3>
+    <p>Kode wilayah tersebut disesuaikan dengan wilayah lokasi Desa Singonegaran.
+    Angka 35 menunjukkan kode wilayah administrasi Provinsi Jawa Timur.
+    Angka 71 menunjukkan kode wilayah administrasi Kota Kediri.
+    Angka 03 menunjukkan kode wilayah administrasi Kecamatan Pesantren.
+    Angka 1005 menunjukkan kode wilayah administrasi Kelurahan Singonegaran. 
+    </p>
+    <p>Kode administrasi setiap wilayah bersifat unik, sehingga setiap wilayah akan memiliki kode administrasi yang berbeda-beda berdasarkan lokasi wilayah tersebut berada.</p>
+</div>
+
+<img src="Peta Penutup Lahan dan Penggunaan Lahan Desa Singonegaran-1.png" alt="Peta Penutup Lahan dan Penggunaan Lahan Desa Singonegaran"
+style="width:600px;height:400px;">
+
+<h3>Peta Penutup Lahan dan Penggunaan Lahan Desa Singonegaran</h3>
+
+<p>Gambar di atas merupakan Peta Penutup Lahan dan Penggunaan Lahan Desa Singonegaran yang dibuat pada tahun 2022.
+    Peta tersebut menggambarkan jenis tutupan lahan dan penggunaannya yang tersebar pada wilayah Desa Singonegaran.
+    Terdapat 5 jenis tutupan lahan yang berhasil diidentifikasi, meliputi sawah kosong, lahan hijau, pepohonan, sawah garapan, dan lapangan.
+    Setiap wilayah dan desa mungkin memiliki jenis tutupan lahan dan penggunaan lahan yang berbeda-beda. Oleh karena itu, penting adanya kegiatan identifikasi tutupan lahan dan penggunaan lahan yang sesuai pada setiap desa.
+</p>
+
+<div class="footer">
+    <p>Sistem Informasi Desa Singonegaran. Copyright@2023</p>
+  </div>
+
+</body>
+</html>
+
+
